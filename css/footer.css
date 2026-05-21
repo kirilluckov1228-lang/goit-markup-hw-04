@@ -1,6 +1,7 @@
 .footer{ 
     background-color: #2E2F42;
-    padding: 100px ;
+    padding: 100px;
+    
    
 }
 
@@ -34,16 +35,30 @@
 
 
 .social-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #ffffff;
+    margin-bottom: 16px;
+   
 }
 
 
-.container-footer-contant{
+.container-footer-container{
     display: flex; 
     gap: 120px;
     margin: 0 auto;
     padding: 0 15px;
+    
 }
 
+.social-list .footer-social-list{
+    gap: 16px;
+ 
+}
 
+.social-link:hover, .social-link:focus{
+    background-color: #31d0aa;
+}
 
